@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #003559;
+    color: #F6F7F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.password-title {
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 8rem;
+    color: #EC3232;
+    text-transform: uppercase;
+}
+
+h2 {
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    max-width: 600px;
+    padding-left: 2rem;
+}
+
+.pw-info{
+    justify-content: center;
+    width: 500px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    max-width: 600px;
+}
+
+.pw-container {
+    background-color: #061A40;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.5);
+    width: auto;
+}
+
+
+.pw-header {
+    background-color: #061A40;
+    padding: 2rem;
+}
+
+.pw {
+    background-color: #003559;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+
+.pw button {
+    background-color: #BB9F06;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, -80%);
+    transition: opacity 0.2s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.pw-body {
+    padding: 0 1rem 1rem;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate {
+    background-color: #BB9F06;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+}
